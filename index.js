@@ -15,7 +15,8 @@ module.exports = {
 
 var watch = function watch(doit, name) {
   try {
-    var n = name === undefined ? doit.toString() : name;
+    var i = "".concat(+new Date(), "_").concat("".concat(Math.random() * 1000 >> 0).padStart(3, "0"));
+    var n = name === undefined ? i : name;
     console.time(n);
     var r = doit;
     console.timeEnd(n);
