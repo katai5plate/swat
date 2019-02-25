@@ -4,7 +4,7 @@ module.exports = {
   swat: function swat() {
     var callback = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : function () {};
     var name = arguments.length > 1 ? arguments[1] : undefined;
-    watch(callback(), name || callback);
+    watch(callback(), name);
   },
   swatEval: function swatEval() {
     var code = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "";
