@@ -61,3 +61,5 @@ swatEval(example_2, "hooray!");
 // hooray!: 0.0009765625ms
 // RETURN: hip,hip
 ```
+- demo
+https://katai5plate.github.io/swat/
